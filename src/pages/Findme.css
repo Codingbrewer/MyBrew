@@ -1,0 +1,114 @@
+.findme {
+    background-image: url('../imgs/bg3.png');
+    height: 550px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.groupBox{
+font-size: 1.2rem;
+width: 40%;
+justify-content: center;
+align-items: center;
+position: relative;
+left: 30%;
+right: 30%;
+height: 700px;
+}
+
+
+.socialicon {
+    cursor: pointer;
+    width: 5%;
+    height: 5%;
+    padding-right: 0%;
+    display: inline-block;
+
+}
+
+.socialicon:hover {
+    transform: scale(1.2);
+}
+
+.fb {
+    height: 40px;
+    background-color: #3d599d;
+    margin: 1%;
+    border-radius: 10px; 
+
+}
+
+.tik {
+    height: 40px;
+    background-color: black;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.ins {
+    height: 40px;
+    background-image: linear-gradient(90deg, #ffad4d 0%, #ff5c3f 35%, #6b4bc6 100%);
+    margin: 1%;
+    border-radius: 10px
+}
+
+.twi {
+    height: 40px;
+    background-color: #1da1f2;
+    margin: 1%;
+    border-radius: 10px
+}
+
+.lin {
+    height: 40px;
+    background-color: #0274b3;
+    margin: 1%;
+    border-radius: 10px
+}
+
+.you {
+    height: 40px;
+    background-color: #ff0000;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.modalsmalltext {
+    font-size: 0.8rem;
+    color: grey;
+}
+
+@media only screen and (max-width: 900px) { 
+
+    .groupBox{
+        font-size: 1.2rem;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 30%;
+        right: 30%;
+        height: 700px;
+        }
+ }
+
+
+  @media only screen and (max-width: 760px) { 
+
+    .socialicon {
+        width: 15%;
+        height: 15%;
+    
+    
+    }
+
+  }

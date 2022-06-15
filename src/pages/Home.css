@@ -1,0 +1,76 @@
+.home {
+    background-image: url('../imgs/bg4.png');
+    height: 550px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    
+    .slideShow{
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      width: 45%;
+      height: 45%;
+      padding-top: 2%;
+    }
+    
+    
+    .slideText {
+     
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding: 0.5em 1em;
+      color: black;
+      word-wrap: break-word;
+      background-color: white;
+      opacity: 70%;
+      border-radius: 0.5rem;
+     
+    }
+
+    @media only screen and (max-width: 1500px) { 
+
+    .slideText {
+ 
+      font-size: 1.2rem;
+     
+    }
+  }
+
+  
+    @media only screen and (max-width: 560px) { 
+  
+  
+      .slideShow{
+      
+        width: 70%;
+        height: 70%;
+        padding-top: 3%;
+      }
+  
+      .slideText {
+        font-size: 0.9rem;
+      }
+  
+  }
+
+ 
+  @media only screen and (max-width: 200px) {
+    .slideShow {
+  
+      display: none;
+  
+    } 
+  
+    }
+  
+    @media only screen and (max-height: 350px) {
+      .slideShow {
+        display: none;
+    
+      } 
+    
+      }
+  
+  

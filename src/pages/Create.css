@@ -1,0 +1,103 @@
+.create {
+    color: #555;
+    max-width: 480px;
+    min-height: 600px;
+    margin: 30px auto;
+  }
+  .create p {
+    margin-top: 10px;
+    font-size: 0.8em;
+  }
+  .create button {
+    display: block;
+    width: 130px;
+    font-size: 1em;
+    color: #fff;
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 20px auto;
+  }
+
+
+  .input {
+      height: 20%;
+  }
+
+  .inputTitle {
+      font-size: 1.2rem;
+      font-weight: bold;
+  }
+  
+  .link {
+      text-decoration: none;
+  }
+
+  .buttons {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20%;
+      max-width: 100px;
+      margin: 2% auto;
+      justify-content: center;
+      align-items: center;
+  }
+
+  
+.upload {
+    margin-top: 1%;
+    margin-bottom: 6%;
+    display: inline-flex;
+    max-height: 25%;
+    padding-bottom: 5%;
+}
+
+.upload-file {
+    padding-bottom: 7%;
+    margin-top: 5%;
+} 
+
+.upload-btn {
+    color: black;
+    background-color: rgb(165, 204, 221);
+    height: 20%;
+    margin-bottom: 10%;
+
+ }
+
+
+ @media only screen and (max-width: 560px) { 
+ 
+    .create {
+        color: #555;
+        width: 75%;
+        min-height: 600px;
+      }
+
+      .upload {
+        margin-top: 1%;
+        margin-bottom: 6%;
+        display: block;
+        max-height: 40%;
+        padding-bottom: 5%;
+    }
+
+    .upload-file {
+        padding-bottom: 1%;
+        margin-top: 6%;
+    } 
+    
+
+    .buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20%;
+        max-width: 100px;
+        margin: 2% auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

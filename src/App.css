@@ -1,0 +1,115 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sansita&family=Zen+Kurenaido&display=swap');
+
+
+
+.App {
+  text-align: center;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.myName {
+  color: rgb(94, 156, 210);
+  font-family: 'Indie Flower', cursive;
+}
+
+
+.title {
+  padding-top: 0%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  padding-top: 2%;
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: #292b2c ;
+  color: white;
+  height: 40px;
+  margin-top: 5%;
+  position:fixed;
+  left:0;
+  bottom:0;
+  right:0;
+
+}
+
+.footerText {
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  padding-top: 0.5%;
+
+}
+
+
+@media only screen and (max-width: 1510px) {
+
+
+  .title {
+    padding-top: 0%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+  }
+
+ 
+    
+  }
+
+
+  @media only screen and (max-width: 900px) { 
+
+
+    .title {
+      padding-top: 1%;
+      font-family: 'Indie Flower', cursive;
+      font-size: 1.8rem;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 560px) { 
+
+
+    .footerText {
+      font-size: 1rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+
+
+.footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    right:0;
+
+  }
+}
+
+@media only screen and (max-width: 400px) { 
+.title {
+  padding-top: 0%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.4rem;
+} 
+}
+
+
+  @media only screen and (max-height: 350px) {
+
+    .title {
+      padding-top: 25%;
+      font-family: 'Indie Flower', cursive;
+      font-size: 1.8rem;
+    } 
+  
+    }
+

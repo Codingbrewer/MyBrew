@@ -1,0 +1,131 @@
+.create {
+    color: #555;
+    max-width: 480px;
+    min-height: 600px;
+    margin: 30px auto;
+  }
+  .create p {
+    margin-top: 10px;
+    font-size: 0.8em;
+  }
+  .create button {
+    display: block;
+    width: 130px;
+    font-size: 1em;
+    color: #fff;
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 20px auto;
+  }
+
+
+  .input {
+      height: 20%;
+  }
+
+  .inputTitle {
+      font-size: 1.2rem;
+      font-weight: bold;
+  }
+  
+  .link {
+      text-decoration: none;
+  }
+
+  .editForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    margin: 2% auto;
+    padding-left: 7%;
+    padding-right: 7%;
+    
+    }
+    
+
+  .editorButtons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20%;
+      max-width: 100px;
+      margin: 2% auto;
+      justify-content: center;
+      align-items: center;
+      padding-top: 25%;
+  }
+
+  
+.uploadEditor {
+    margin-top: -5%;
+    margin-bottom: 0%;
+    display: grid;
+    max-height: 2%;
+    padding-bottom: 0%;
+}
+
+.uploadEditorFile{
+    padding-bottom: 1%;
+    margin-top: 5%;
+} 
+
+.uploadEditorButton {
+    color: black;
+    background-color: rgb(165, 204, 221);
+    margin-top: 1%;
+    margin-bottom: 0%;
+    display: inline-block;
+    max-height: 25%;
+    padding-bottom: 7%;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.2rem;
+
+ }
+
+
+ @media only screen and (max-width: 900px) { 
+
+    .editForm {
+      display: grid;
+      grid-template-columns: 1fr;
+      max-width: 550px;
+      gap: 10%;
+      margin: 2% auto;
+      padding-left: 7%;
+      padding-right: 7%;
+    
+    }
+
+    .slidetexts{
+        justify-content: center;
+        padding-left: 13%;
+    }
+    
+
+    .uploadEditorButton {
+        font-size: 1rem;
+
+
+  }
+ }
+
+ @media only screen and (max-width: 350px) { 
+
+
+    .uploadEditorButton {
+        color: black;
+        background-color: rgb(165, 204, 221);
+        margin-top: 1%;
+        margin-bottom: 0%;
+        display: inline-block;
+        height: 40px;
+        padding-bottom: 10%;
+       
+        font-size: 1rem;
+    
+     }
+
+ }
