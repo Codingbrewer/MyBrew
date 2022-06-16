@@ -41,12 +41,9 @@ function NavbarTop() {
 const ref = firebase.firestore().collection('profile')
 
 const [data, setData] = useState([])
-const [isPending, setIsPending] = useState(false)
-const [error, setError] = useState(false)
-
-
+const [isPending] = useState(false)
+const [error] = useState(false)
 const [loader, setLoader] = useState(true)
-
 const [expanded, setExpanded] = useState(false);
 
   return (
