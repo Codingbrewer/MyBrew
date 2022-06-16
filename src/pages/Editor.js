@@ -1,4 +1,4 @@
-import { useState, useRef, } from 'react'
+import { useState} from 'react'
 import { Button, Form, Row , Col } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom'
 import firebase from '../Firebase/config'
@@ -16,7 +16,7 @@ export default function Editor() {
   const [urlslide1, setUrlslide1] = useState('')
   const [urlslide2, setUrlslide2] = useState('')
   const [urlslide3, setUrlslide3] = useState('')
-  const [progress, setProgress] = useState(0)
+  const [setProgress] = useState(0)
   const [story, setStory] = useState('')
   const [slide1, setSlide1] = useState('')
   const [slide2, setSlide2] = useState('')
