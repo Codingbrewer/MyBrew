@@ -291,25 +291,25 @@ function editDoc(uptdDoc) {
         <div>
 
         <div className='groupBox'>
-        <div><img className='socialicon'onClick={handleShowYou} src={youtubeIcon}/></div> <div className='you'> 
-        <a  href={`https://www.youtube.com/channel/${dev.youtube}`} target="_blank"> {dev.youtube} </a></div>
+        <div><img alt='' className='socialicon'onClick={handleShowYou} src={youtubeIcon}/></div> <div className='you'> 
+        <a  href={`https://www.youtube.com/channel/${dev.youtube}`} target="_blank" rel="noreferrer"> {dev.youtube} </a></div>
 
-        <div> <img className='socialicon' onClick={handleShowFB} src={facebookIcon}/></div>
-        <div className='fb'> <a  href={`https://www.facebook.com/${dev.facebook}`} target="_blank"> {dev.facebook} </a>
+        <div> <img alt='' className='socialicon' onClick={handleShowFB} src={facebookIcon}/></div>
+        <div className='fb'> <a  href={`https://www.facebook.com/${dev.facebook}`} target="_blank" rel="noreferrer"> {dev.facebook} </a>
         </div>
-        <div> <img className='socialicon' onClick={handleShowTIK} src={tiktokIcon}/></div>
-        <div className='tik'><a  href={`https://www.tiktok.com/${dev.tiktok}`} target="_blank"> {dev.tiktok} </a></div>
+        <div> <img alt=''  className='socialicon' onClick={handleShowTIK} src={tiktokIcon}/></div>
+        <div className='tik'><a  href={`https://www.tiktok.com/${dev.tiktok}`} target="_blank" rel="noreferrer" > {dev.tiktok} </a></div>
 
 
-        <div><img className='socialicon'  onClick={handleShowINS} src={instagramIcon}/> </div>
-        <div className='ins'><a  href={`https://www.instagram.com/${dev.instagram}`} target="_blank"> {dev.instagram} </a></div>
+        <div><img alt='' className='socialicon'  onClick={handleShowINS} src={instagramIcon}/> </div>
+        <div className='ins'><a  href={`https://www.instagram.com/${dev.instagram}`} target="_blank" rel="noreferrer"> {dev.instagram} </a></div>
 
-        <div><img className='socialicon' onClick={handleShowTWI} src={twitterIcon}/></div>
-        <div className='twi' ><a  href={`https://twitter.com/${dev.twitter}`} target="_blank">{dev.twitter} </a></div>
+        <div><img alt='' className='socialicon' onClick={handleShowTWI} src={twitterIcon}/></div>
+        <div className='twi' ><a  href={`https://twitter.com/${dev.twitter}`} target="_blank" rel="noreferrer">{dev.twitter} </a></div>
 
 
-        <div><img className='socialicon' onClick={handleShowLIN} src={linkedinIcon}/> </div>
-        <div className='lin'> <a href={`https://www.linkedin.com/in/${dev.linkedin}`} target="_blank">{dev.linkedin}</a></div>
+        <div><img alt='' className='socialicon' onClick={handleShowLIN} src={linkedinIcon}/> </div>
+        <div className='lin'> <a href={`https://www.linkedin.com/in/${dev.linkedin}`} target="_blank" rel="noreferrer">{dev.linkedin}</a></div>
         
 </div>
 
