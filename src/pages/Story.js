@@ -22,7 +22,7 @@ export default function Story() {
   
   
   useEffect(() => {
-    getData()
+    getData()})
   
 
   const ref = firebase.firestore().collection('profile')
