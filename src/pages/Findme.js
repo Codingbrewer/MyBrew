@@ -1,10 +1,8 @@
 import React from 'react'
-import { Button, Modal, Form, ListGroup } from 'react-bootstrap';
+import { Button, Modal, Form} from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 import firebase from '../Firebase/config'
 import './Findme.css'
-import { toast, ToastContainer } from 'react-toastify'
-import "react-toastify/dist/ReactToastify.css";
 
 ///icons
 import youtubeIcon from '../imgs/youtube.svg'
@@ -42,8 +40,8 @@ const handleShowYou= () => setShowYou(true);
 
 
 const [data, setData] = useState([])
-const [isPending, setIsPending] = useState(false)
-const [error, setError] = useState(false)
+const [isPending] = useState(false)
+const [error] = useState(false)
 
 
 const [loader, setLoader] = useState(true)
@@ -65,7 +63,7 @@ function getData(){
 
 useEffect(() => {
   getData()
-}, [])
+})
 
 const [linkedin, setLinkedIn] = useState('') 
 const [facebook, setFacebook] = useState('') 
