@@ -1,12 +1,8 @@
 import { useParams, useNavigate } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { Button, Card, CardGroup } from 'react-bootstrap';
 import { projectFirestore } from '../Firebase/config2'
 
-
-
-// styles
-// import './Recipe.css'
 
 export default function Recipe() {
   const { id } = useParams()
@@ -44,12 +40,8 @@ export default function Recipe() {
 
   }
 
+  const handleOnClick = useCallback(() => navigate('/recipes', {replace: true}), [navigate]);
 
-  const handleClick = () => {
-    projectFirestore.collection('recipes').doc(id).update({
-      title: 'Something completely different'
-    })
-  }
 
   return (
     <div >
@@ -82,7 +74,8 @@ export default function Recipe() {
       {recipe.method}
       </Card.Text>
     </Card.Body>
-    <Button variant="dark" onClick={handleDelete} >Remove recipe</Button>
+    <Button className='recipe-btn' variant="dark" onClick={handleOnClick} >Back to all recipes</Button>
+    <Button className='recipe-btn' variant="dark" onClick={handleDelete} >Remove recipe</Button>
   </Card>
 </CardGroup>
 
