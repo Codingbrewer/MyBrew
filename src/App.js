@@ -1,8 +1,5 @@
-
 import './App.css';
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar, Button, Container } from 'react-bootstrap';
 import Home from './pages/Home';
 import Story from './pages/Story';
 import Recipes from './pages/Recipes';
