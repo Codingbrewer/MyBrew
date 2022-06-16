@@ -39,22 +39,12 @@ export default function Recipes() {
 
   }, [])
 
-  const handleClick = (id) => {
-    if (window.confirm('Are you sure you want to remove yout about text?')) {
-      projectFirestore.collection('recipes').doc(id).delete()
-      window.location.reload(true);
-
-    } else {
-       console.log('Item was not deleted');
-    }
-  }
-
 
   return (
     
     <div className='recipesbody'>
       
-      <h1 className='title'> <img  className='rotate' src={bean}/> My Recipes <img className='rotate'  src={bean}/> </h1>
+      <h1 className='title'> <img alt='' className='rotate' src={bean}/> My Recipes <img alt='' className='rotate'  src={bean}/> </h1>
       <div className='recipesGrid' >
 
       {error && <p className='error'> {error} </p>}
