@@ -63,11 +63,11 @@ const [expanded, setExpanded] = useState(false);
         className="mx-auto"
       >
  <Nav.Link onClick={() => setExpanded(false)}  as={Link} to="/Home">HOME</Nav.Link>
- <img  className='beanwhitesmall' src={beanwhite}/>
+ <img alt=''  className='beanwhitesmall' src={beanwhite}/>
     <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/Story">MY STORY</Nav.Link>
-    <img  className='beanwhitesmall' src={beanwhite}/>
+    <img alt='' className='beanwhitesmall' src={beanwhite}/>
       <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/Recipes">MY RECIPES</Nav.Link>
-      <img  className='beanwhitesmall' src={beanwhite}/>
+      <img alt='' className='beanwhitesmall' src={beanwhite}/>
       <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/Findme">FOLLOW ME</Nav.Link>
       </Nav>
       <Nav>
