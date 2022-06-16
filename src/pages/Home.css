@@ -38,6 +38,13 @@
     }
   }
 
+  @media only screen and (max-width: 900px) { 
+  .home {
+    background-image: none;
+    }
+
+  }
+
   
     @media only screen and (max-width: 560px) { 
   
