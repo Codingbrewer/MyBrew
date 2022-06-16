@@ -35,7 +35,7 @@ function NavbarTop() {
   
   useEffect(() => {
     getData()
-  }, [])
+  })
   
 
 const ref = firebase.firestore().collection('profile')
