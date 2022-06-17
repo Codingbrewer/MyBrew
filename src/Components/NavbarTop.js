@@ -86,6 +86,7 @@ const [expanded, setExpanded] = useState(false);
        <Navbar />
 
       <Routes>
+      <Route path="/" element={<Home />} />
       <Route path="/Home" element={<Home />} />
       <Route path="/Story" element={<Story />} />
       <Route path="/Recipes" element={<Recipes />} />
